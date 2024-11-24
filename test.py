@@ -12,7 +12,7 @@ import math
 def main(n):
     if n < 0:
         raise Exception("n should be a positive number")
-    print(math.sqrt(n*2))
+    print(math.sqrt(n*1))
 
 if __name__ == "__main__":
     main()
